@@ -1,0 +1,18 @@
+# 핵심 크롤링 라이브러리
+requests~=2.32.3
+beautifulsoup4~=4.12.2
+lxml>=5.0.0
+
+# AI 및 OCR 라이브러리
+openai~=1.102.0
+py-zerox~=0.0.7         # AI Vision 모델을 사용한 OCR
+
+# 데이터 변환 및 유틸리티
+img2pdf~=0.6.1          # 이미지를 PDF로 변환
+markdownify~=1.2.0      # HTML을 마크다운으로 변환
+
+# 환경 변수 관리
+python-dotenv~=1.1.1
+
+# 개발 도구
+ipykernel~=6.30.1

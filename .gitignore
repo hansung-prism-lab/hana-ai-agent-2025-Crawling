@@ -1,0 +1,27 @@
+# 민감한 정보들 (Secrets)
+#   환경 변수 파일
+.env
+
+
+# 파이썬 자동 생성 파일 (Cache)
+#   파이썬 컴파일 캐시 폴더
+__pycache__/
+#   Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+
+# 스크립트 실행 결과물
+#   db.py가 생성하는 데이터베이스 텍스트 파일
+notice_db.txt
+crawled_id.txt
+pdf/
+
+
+# 가상환경 (venv)
+#   파이썬 가상환경 폴더 (있다면 무시)
+crawling/
+venv_crawling/
+
+
+.DS_Store
+.vscode/
